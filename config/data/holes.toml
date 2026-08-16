@@ -2064,6 +2064,17 @@ Huffman code: <code>(d: 0, a: 10, e: 110, b: 111)</code>
 Apply code to each symbol: <code>111 10 10 111 0 0 0 0 0 110</code>
 '''
 
+['Integer Roots']
+authors = [
+	'016f6f73-e771-7a8d-82d2-3d4aa30dac05', # btnlq
+	'018b4d65-bc7e-7862-8289-983baa125555', # albanian-laundromat
+]
+category = 'Mathematics'
+synopsis = 'Compute the integer roots of a polynomial.'
+preamble = '''
+<p>Given the coefficients of a polynomial $a_n x^n+...+a_1 x + a_0$, print its integer roots without repetitions in ascending order.
+'''
+
 [Intersection]
 authors = [
     '018138c7-c575-7c1c-9494-a6ab948e5e98', # alemelis
