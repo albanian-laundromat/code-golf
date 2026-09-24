@@ -21,7 +21,7 @@ func randTrail(length int) string {
 		case 'F':
 			dx, dy := x+directions[d][0], y+directions[d][1]
 
-			if dx < 0 || dy < 0 || visited[[2]int{dx, dy}] {
+			if dx < 0 || dy < 0 || dx > 19 || dy > 10 || visited[[2]int{dx, dy}] {
 				trail = trail[:len(trail)-1]
 				continue
 			}
